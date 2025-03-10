@@ -1,0 +1,5 @@
+C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug/CMakeFiles/Main.dir
+C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug/CMakeFiles/InclassWeek4.dir
+C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug/CMakeFiles/HomeworkWeek3.dir
+C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug/CMakeFiles/rebuild_cache.dir
