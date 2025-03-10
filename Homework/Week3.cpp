@@ -2,7 +2,6 @@
 
 template <typename T>
 class myArray {
-    private:
     int size; //representing the number of elements
     T* data;
 
