@@ -1,6 +1,6 @@
 # ninja log v6
 1	247	7632939975946534	CMakeFiles/Week4.dir/Week4.cpp.obj	b4c098c31251661f
-29	303	7632949053249006	build.ninja	c64d1da5991c15ce
+29	303	7633009135843291	build.ninja	c64d1da5991c15ce
 35	303	7632947656177176	CMakeFiles/HomeworkWeek3.dir/Homework/Week3.cpp.obj	fc9d668b035801d7
 12	285	7632939532510804	CMakeFiles/Main.dir/main.cpp.obj	1f90b44fa9c2cff
 288	366	7632939535261488	Main.exe	f42faa2404a541ce

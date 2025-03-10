@@ -140,70 +140,70 @@ build InclassWeek3.exe: CXX_EXECUTABLE_LINKER__InclassWeek3_Debug CMakeFiles/Inc
   TARGET_PDB = InclassWeek3.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target HomeworkWeek3
+# Object build statements for EXECUTABLE target Homework1
 
 
 #############################################
-# Order-only phony target for HomeworkWeek3
+# Order-only phony target for Homework1
 
-build cmake_object_order_depends_target_HomeworkWeek3: phony || .
+build cmake_object_order_depends_target_Homework1: phony || .
 
-build CMakeFiles/HomeworkWeek3.dir/Homework/Week3.cpp.obj: CXX_COMPILER__HomeworkWeek3_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Homework/Week3.cpp || cmake_object_order_depends_target_HomeworkWeek3
-  DEP_FILE = CMakeFiles\HomeworkWeek3.dir\Homework\Week3.cpp.obj.d
+build CMakeFiles/Homework1.dir/Homework/Homework.cpp.obj: CXX_COMPILER__Homework1_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Homework/Homework.cpp || cmake_object_order_depends_target_Homework1
+  DEP_FILE = CMakeFiles\Homework1.dir\Homework\Homework.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\HomeworkWeek3.dir
-  OBJECT_FILE_DIR = CMakeFiles\HomeworkWeek3.dir\Homework
+  OBJECT_DIR = CMakeFiles\Homework1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Homework1.dir\Homework
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target HomeworkWeek3
+# Link build statements for EXECUTABLE target Homework1
 
 
 #############################################
-# Link the executable HomeworkWeek3.exe
+# Link the executable Homework1.exe
 
-build HomeworkWeek3.exe: CXX_EXECUTABLE_LINKER__HomeworkWeek3_Debug CMakeFiles/HomeworkWeek3.dir/Homework/Week3.cpp.obj
+build Homework1.exe: CXX_EXECUTABLE_LINKER__Homework1_Debug CMakeFiles/Homework1.dir/Homework/Homework.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\HomeworkWeek3.dir
+  OBJECT_DIR = CMakeFiles\Homework1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = HomeworkWeek3.exe
-  TARGET_IMPLIB = libHomeworkWeek3.dll.a
-  TARGET_PDB = HomeworkWeek3.exe.dbg
+  TARGET_FILE = Homework1.exe
+  TARGET_IMPLIB = libHomework1.dll.a
+  TARGET_PDB = Homework1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target HomeworkWeek4
+# Object build statements for EXECUTABLE target Homework2
 
 
 #############################################
-# Order-only phony target for HomeworkWeek4
+# Order-only phony target for Homework2
 
-build cmake_object_order_depends_target_HomeworkWeek4: phony || .
+build cmake_object_order_depends_target_Homework2: phony || .
 
-build CMakeFiles/HomeworkWeek4.dir/Homework/Week4.cpp.obj: CXX_COMPILER__HomeworkWeek4_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Homework/Week4.cpp || cmake_object_order_depends_target_HomeworkWeek4
-  DEP_FILE = CMakeFiles\HomeworkWeek4.dir\Homework\Week4.cpp.obj.d
+build CMakeFiles/Homework2.dir/Homework/Homework2.cpp.obj: CXX_COMPILER__Homework2_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Homework/Homework2.cpp || cmake_object_order_depends_target_Homework2
+  DEP_FILE = CMakeFiles\Homework2.dir\Homework\Homework2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\HomeworkWeek4.dir
-  OBJECT_FILE_DIR = CMakeFiles\HomeworkWeek4.dir\Homework
+  OBJECT_DIR = CMakeFiles\Homework2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Homework2.dir\Homework
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target HomeworkWeek4
+# Link build statements for EXECUTABLE target Homework2
 
 
 #############################################
-# Link the executable HomeworkWeek4.exe
+# Link the executable Homework2.exe
 
-build HomeworkWeek4.exe: CXX_EXECUTABLE_LINKER__HomeworkWeek4_Debug CMakeFiles/HomeworkWeek4.dir/Homework/Week4.cpp.obj
+build Homework2.exe: CXX_EXECUTABLE_LINKER__Homework2_Debug CMakeFiles/Homework2.dir/Homework/Homework2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\HomeworkWeek4.dir
+  OBJECT_DIR = CMakeFiles\Homework2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = HomeworkWeek4.exe
-  TARGET_IMPLIB = libHomeworkWeek4.dll.a
-  TARGET_PDB = HomeworkWeek4.exe.dbg
+  TARGET_FILE = Homework2.exe
+  TARGET_IMPLIB = libHomework2.dll.a
+  TARGET_PDB = Homework2.exe.dbg
 
 
 #############################################
@@ -231,9 +231,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build HomeworkWeek3: phony HomeworkWeek3.exe
+build Homework1: phony Homework1.exe
 
-build HomeworkWeek4: phony HomeworkWeek4.exe
+build Homework2: phony Homework2.exe
 
 build InclassWeek3: phony InclassWeek3.exe
 
@@ -249,7 +249,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug
 
-build all: phony Main.exe InclassWeek4.exe InclassWeek3.exe HomeworkWeek3.exe HomeworkWeek4.exe
+build all: phony Main.exe InclassWeek4.exe InclassWeek3.exe Homework1.exe Homework2.exe
 
 # =============================================================================
 # Built-in targets
