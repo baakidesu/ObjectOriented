@@ -1,6 +1,6 @@
 # ninja log v6
 1	247	7632939975946534	CMakeFiles/Week4.dir/Week4.cpp.obj	b4c098c31251661f
-29	303	7633009135843291	build.ninja	c64d1da5991c15ce
+29	303	7638590416043215	build.ninja	c64d1da5991c15ce
 35	303	7632947656177176	CMakeFiles/HomeworkWeek3.dir/Homework/Week3.cpp.obj	fc9d668b035801d7
 12	285	7632939532510804	CMakeFiles/Main.dir/main.cpp.obj	1f90b44fa9c2cff
 288	366	7632939535261488	Main.exe	f42faa2404a541ce
@@ -11,3 +11,14 @@
 330	413	7632947759160211	InclassWeek3.exe	86206235e1825162
 26	337	7632949200933570	CMakeFiles/HomeworkWeek4.dir/Homework/Week4.cpp.obj	18f4303adf46a846
 337	421	7632949204036191	HomeworkWeek4.exe	1ce3a600532520fe
+45	101	7638590533600170	CMakeFiles/Homework3.dir/Homework/Homework3.cpp.obj	d1611b91f37b9f61
+26	359	7638610853795366	CMakeFiles/Homework3.dir/Homework/Homework3.cpp.obj	d1611b91f37b9f61
+359	468	7638610857126978	Homework3.exe	7f23aa64c0f3ec91
+34	316	7638611365986596	CMakeFiles/Homework3.dir/Homework/Homework3.cpp.obj	d1611b91f37b9f61
+316	401	7638611368816195	Homework3.exe	7f23aa64c0f3ec91
+50	1022	7638619235123920	CMakeFiles/Homework3.dir/Homework/Homework3.cpp.obj	d1611b91f37b9f61
+1023	1298	7638619244851777	Homework3.exe	7f23aa64c0f3ec91
+34	311	7638620323191919	CMakeFiles/Homework3.dir/Homework/Homework3.cpp.obj	d1611b91f37b9f61
+311	401	7638620325968510	Homework3.exe	7f23aa64c0f3ec91
+35	308	7638623100308804	CMakeFiles/Homework3.dir/Homework/Homework3.cpp.obj	d1611b91f37b9f61
+308	395	7638623103036728	Homework3.exe	7f23aa64c0f3ec91
