@@ -1,7 +1,7 @@
 #include <iostream>
 
 class Park {
-private:
+
     double widht, depth, mounthlyCleaningCount;
     int smallTrees, bigTrees;
 
@@ -27,6 +27,7 @@ private:
             return "good";
         }
     }
+
     public:
 
     Park(double w, double d, int sT, int bT, double mCC) {
@@ -57,6 +58,7 @@ private:
         }else if (park1=="fine" || park2=="fine") {
             return "fine";
         }
+
         return "good";
     }
 };

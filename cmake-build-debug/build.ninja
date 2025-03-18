@@ -74,6 +74,39 @@ build Main.exe: CXX_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.cpp.o
   TARGET_PDB = Main.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target InclassWeek3
+
+
+#############################################
+# Order-only phony target for InclassWeek3
+
+build cmake_object_order_depends_target_InclassWeek3: phony || .
+
+build CMakeFiles/InclassWeek3.dir/Lab_Inclass/Week3.cpp.obj: CXX_COMPILER__InclassWeek3_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Lab$ Inclass/Week3.cpp || cmake_object_order_depends_target_InclassWeek3
+  DEP_FILE = CMakeFiles\InclassWeek3.dir\Lab_Inclass\Week3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\InclassWeek3.dir
+  OBJECT_FILE_DIR = CMakeFiles\InclassWeek3.dir\Lab_Inclass
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InclassWeek3
+
+
+#############################################
+# Link the executable InclassWeek3.exe
+
+build InclassWeek3.exe: CXX_EXECUTABLE_LINKER__InclassWeek3_Debug CMakeFiles/InclassWeek3.dir/Lab_Inclass/Week3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\InclassWeek3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = InclassWeek3.exe
+  TARGET_IMPLIB = libInclassWeek3.dll.a
+  TARGET_PDB = InclassWeek3.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target InclassWeek4
 
 
@@ -107,37 +140,37 @@ build InclassWeek4.exe: CXX_EXECUTABLE_LINKER__InclassWeek4_Debug CMakeFiles/Inc
   TARGET_PDB = InclassWeek4.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target InclassWeek3
+# Object build statements for EXECUTABLE target InclassWeek6
 
 
 #############################################
-# Order-only phony target for InclassWeek3
+# Order-only phony target for InclassWeek6
 
-build cmake_object_order_depends_target_InclassWeek3: phony || .
+build cmake_object_order_depends_target_InclassWeek6: phony || .
 
-build CMakeFiles/InclassWeek3.dir/Lab_Inclass/Week3.cpp.obj: CXX_COMPILER__InclassWeek3_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Lab$ Inclass/Week3.cpp || cmake_object_order_depends_target_InclassWeek3
-  DEP_FILE = CMakeFiles\InclassWeek3.dir\Lab_Inclass\Week3.cpp.obj.d
+build CMakeFiles/InclassWeek6.dir/Lab_Inclass/Week6.cpp.obj: CXX_COMPILER__InclassWeek6_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Lab$ Inclass/Week6.cpp || cmake_object_order_depends_target_InclassWeek6
+  DEP_FILE = CMakeFiles\InclassWeek6.dir\Lab_Inclass\Week6.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\InclassWeek3.dir
-  OBJECT_FILE_DIR = CMakeFiles\InclassWeek3.dir\Lab_Inclass
+  OBJECT_DIR = CMakeFiles\InclassWeek6.dir
+  OBJECT_FILE_DIR = CMakeFiles\InclassWeek6.dir\Lab_Inclass
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target InclassWeek3
+# Link build statements for EXECUTABLE target InclassWeek6
 
 
 #############################################
-# Link the executable InclassWeek3.exe
+# Link the executable InclassWeek6.exe
 
-build InclassWeek3.exe: CXX_EXECUTABLE_LINKER__InclassWeek3_Debug CMakeFiles/InclassWeek3.dir/Lab_Inclass/Week3.cpp.obj
+build InclassWeek6.exe: CXX_EXECUTABLE_LINKER__InclassWeek6_Debug CMakeFiles/InclassWeek6.dir/Lab_Inclass/Week6.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\InclassWeek3.dir
+  OBJECT_DIR = CMakeFiles\InclassWeek6.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = InclassWeek3.exe
-  TARGET_IMPLIB = libInclassWeek3.dll.a
-  TARGET_PDB = InclassWeek3.exe.dbg
+  TARGET_FILE = InclassWeek6.exe
+  TARGET_IMPLIB = libInclassWeek6.dll.a
+  TARGET_PDB = InclassWeek6.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Homework1
@@ -274,6 +307,8 @@ build InclassWeek3: phony InclassWeek3.exe
 
 build InclassWeek4: phony InclassWeek4.exe
 
+build InclassWeek6: phony InclassWeek6.exe
+
 build Main: phony Main.exe
 
 # =============================================================================
@@ -284,7 +319,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug
 
-build all: phony Main.exe InclassWeek4.exe InclassWeek3.exe Homework1.exe Homework2.exe Homework3.exe
+build all: phony Main.exe InclassWeek3.exe InclassWeek4.exe InclassWeek6.exe Homework1.exe Homework2.exe Homework3.exe
 
 # =============================================================================
 # Built-in targets
