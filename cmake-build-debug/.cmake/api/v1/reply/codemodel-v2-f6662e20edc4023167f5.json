@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -53,22 +55,29 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Homework1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Homework1-Debug-9a4a3401b4dbeca9c05a.json",
+					"jsonFile" : "target-Homework1-Debug-2cff41fefb6e963985b2.json",
 					"name" : "Homework1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Homework2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Homework2-Debug-aa93b94815c6aea51ccb.json",
+					"jsonFile" : "target-Homework2-Debug-a71b1c32be1bd76e548d.json",
 					"name" : "Homework2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Homework3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Homework3-Debug-46a4b74fa3e9786194cc.json",
+					"jsonFile" : "target-Homework3-Debug-7bd7b19a3a233142e5ca.json",
 					"name" : "Homework3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InclassWeek11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InclassWeek11-Debug-11e33e770b116b06cc24.json",
+					"name" : "InclassWeek11",
 					"projectIndex" : 0
 				},
 				{

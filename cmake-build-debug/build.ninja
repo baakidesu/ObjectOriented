@@ -206,6 +206,39 @@ build InclassWeek9.exe: CXX_EXECUTABLE_LINKER__InclassWeek9_Debug CMakeFiles/Inc
   TARGET_PDB = InclassWeek9.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target InclassWeek11
+
+
+#############################################
+# Order-only phony target for InclassWeek11
+
+build cmake_object_order_depends_target_InclassWeek11: phony || .
+
+build CMakeFiles/InclassWeek11.dir/Lab_Inclass/Week11.cpp.obj: CXX_COMPILER__InclassWeek11_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Lab$ Inclass/Week11.cpp || cmake_object_order_depends_target_InclassWeek11
+  DEP_FILE = CMakeFiles\InclassWeek11.dir\Lab_Inclass\Week11.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\InclassWeek11.dir
+  OBJECT_FILE_DIR = CMakeFiles\InclassWeek11.dir\Lab_Inclass
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InclassWeek11
+
+
+#############################################
+# Link the executable InclassWeek11.exe
+
+build InclassWeek11.exe: CXX_EXECUTABLE_LINKER__InclassWeek11_Debug CMakeFiles/InclassWeek11.dir/Lab_Inclass/Week11.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\InclassWeek11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = InclassWeek11.exe
+  TARGET_IMPLIB = libInclassWeek11.dll.a
+  TARGET_PDB = InclassWeek11.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Homework1
 
 
@@ -336,6 +369,8 @@ build Homework2: phony Homework2.exe
 
 build Homework3: phony Homework3.exe
 
+build InclassWeek11: phony InclassWeek11.exe
+
 build InclassWeek3: phony InclassWeek3.exe
 
 build InclassWeek4: phony InclassWeek4.exe
@@ -354,7 +389,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug
 
-build all: phony Main.exe InclassWeek3.exe InclassWeek4.exe InclassWeek6.exe InclassWeek9.exe Homework1.exe Homework2.exe Homework3.exe
+build all: phony Main.exe InclassWeek3.exe InclassWeek4.exe InclassWeek6.exe InclassWeek9.exe InclassWeek11.exe Homework1.exe Homework2.exe Homework3.exe
 
 # =============================================================================
 # Built-in targets
