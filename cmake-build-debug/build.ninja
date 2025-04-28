@@ -337,6 +337,39 @@ build Homework3.exe: CXX_EXECUTABLE_LINKER__Homework3_Debug CMakeFiles/Homework3
   TARGET_IMPLIB = libHomework3.dll.a
   TARGET_PDB = Homework3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Homework4
+
+
+#############################################
+# Order-only phony target for Homework4
+
+build cmake_object_order_depends_target_Homework4: phony || .
+
+build CMakeFiles/Homework4.dir/Homework/Homework4.cpp.obj: CXX_COMPILER__Homework4_unscanned_Debug C$:/Users/Burki/CLionProjects/ObjectOriented/Homework/Homework4.cpp || cmake_object_order_depends_target_Homework4
+  DEP_FILE = CMakeFiles\Homework4.dir\Homework\Homework4.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Homework4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Homework4.dir\Homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Homework4
+
+
+#############################################
+# Link the executable Homework4.exe
+
+build Homework4.exe: CXX_EXECUTABLE_LINKER__Homework4_Debug CMakeFiles/Homework4.dir/Homework/Homework4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Homework4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Homework4.exe
+  TARGET_IMPLIB = libHomework4.dll.a
+  TARGET_PDB = Homework4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -369,6 +402,8 @@ build Homework2: phony Homework2.exe
 
 build Homework3: phony Homework3.exe
 
+build Homework4: phony Homework4.exe
+
 build InclassWeek11: phony InclassWeek11.exe
 
 build InclassWeek3: phony InclassWeek3.exe
@@ -389,7 +424,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/Burki/CLionProjects/ObjectOriented/cmake-build-debug
 
-build all: phony Main.exe InclassWeek3.exe InclassWeek4.exe InclassWeek6.exe InclassWeek9.exe InclassWeek11.exe Homework1.exe Homework2.exe Homework3.exe
+build all: phony Main.exe InclassWeek3.exe InclassWeek4.exe InclassWeek6.exe InclassWeek9.exe InclassWeek11.exe Homework1.exe Homework2.exe Homework3.exe Homework4.exe
 
 # =============================================================================
 # Built-in targets

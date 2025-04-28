@@ -12,4 +12,5 @@ add_executable(InclassWeek11 "Lab Inclass/Week11.cpp")
 add_executable(Homework1 "Homework/Homework.cpp")
 add_executable(Homework2 "Homework/Homework2.cpp")
 add_executable(Homework3 "Homework/Homework3.cpp")
+add_executable(Homework4 "Homework/Homework4.cpp")
 
